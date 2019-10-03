@@ -78,14 +78,15 @@ break;
 }
 case 1:
 {
-reg[pos++]=0;
+
 reg[pos++]=1;
+reg[pos++]=0;
 break;
 }
 case 2:
 {
-reg[pos++]=1;
 reg[pos++]=0;
+reg[pos++]=1;
 break;
 }
 case 3:
@@ -111,14 +112,14 @@ break;
 }
 case 1:
 {
-reg[pos++]=0;
 reg[pos++]=1;
+reg[pos++]=0;
 break;
 }
 case 2:
 {
-reg[pos++]=1;
 reg[pos++]=0;
+reg[pos++]=1;
 break;
 }
 case 3:
