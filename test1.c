@@ -56,14 +56,6 @@ ptr->cnf[pin_num-1]=config;
 }
 void display(struct GPIOx_CRH * ptr)
 {
-/*for(int i=0;i<8;i++)
-{
-printf("%d ",ptr->mode[i]);
-}
-for(int i=0;i<8;i++)
-{
-printf("%d ",ptr->cnf[i]);
-}*/
 int reg[32];
 int pos=0,i=0;
 while(pos<32)
@@ -158,41 +150,5 @@ else
 printf("%d",sum);
 j++;
 }
-/*switch(sum)
-{
-case 10:
-{
-printf("A");
-break;
-}
-case 11:
-{
-printf("B");
-break;
-}
-case 12:
-{
-printf("C");
-break;
-}
-case 13:
-{
-printf("D");
-break;
-}
-case 14:
-{
-printf("E");
-break;
-}
-case 15:
-{
-printf("F");
-break;
-}
-default:
-{
-printf(
-break;
-}*/
+
 }
